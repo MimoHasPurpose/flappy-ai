@@ -2,8 +2,7 @@
 
 conda create -p venv python=3.12
 conda activate venv/
-requirements:
-
+##### requirements:
 - pygame
 - neat-python: NEAT neuroevolution algorithm
 
@@ -17,3 +16,6 @@ requirements:
 - Node genes:specifies a node
 - Connection genes: specifies a connection
 - [reference 1:](https://www.reddit.com/r/IAmA/comments/3xqcrk/im_ken_stanley_artificial_intelligence_professor/) 
+
+
+#### Extra features:
