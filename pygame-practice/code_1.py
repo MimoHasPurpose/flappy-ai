@@ -2,7 +2,9 @@ import pygame
 
 #setup pygame
 pygame.init()
-screen=pygame.display.set_mode((1280,700))
+pygame.font.init()
+pygame.display.set_caption("Sammie or Samantha!!")
+
 clock=pygame.time.Clock(  )
 running =True
 
@@ -10,5 +12,9 @@ while running:
     for event in pygame.event.get():
         if event.type==pygame.QUIT:
             running=False
+   
 
-    screen.f
+    pygame.display.flip()
+    clock.tick(60)
+pygame.quit()
+
