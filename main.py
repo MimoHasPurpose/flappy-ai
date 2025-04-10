@@ -76,6 +76,7 @@ class Bird:
 
 
 
+
 def draw_window(win,bird):
     win.blit(BG_IMG,(0,0))
     bird.draw(win)
