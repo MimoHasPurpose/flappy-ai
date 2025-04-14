@@ -1,6 +1,6 @@
-#FLAPPY AI GAME                                             
-#@author:Sanjay Singh Gurjar                                          
-#description: using NEAT algo to play flappy ai game          
+                                                        #FLAPPY AI GAME                                             
+                                                        #@author:Sanjay Singh Gurjar                                          
+                                                        #description: using NEAT algo to play flappy ai game          
 import pygame 
 import neat
 import time
